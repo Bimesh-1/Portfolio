@@ -1,0 +1,40 @@
+/* Root setting for my style  */
+
+body {
+    background-image: url('waterimage.jpg');
+    background-repeat: no-repeat;
+    background-size: 1940px 400px;
+    background-color: color-mix(in hsl shorter hue, color 30%, color 40%);
+    color:darkgray;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+h1 {
+    margin-bottom: 15px;
+    text-align: center;
+    color: rgb(24, 28, 25);
+}
+h2{
+    text-align: center;
+    color: brown;
+}
+h3 {
+    margin-top: 220px;
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+header li {
+    display: inline-block;
+    width: none;
+}
+ul li a {
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+}
+a{
+    color:blue;
+}
