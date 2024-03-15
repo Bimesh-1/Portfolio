@@ -1,15 +1,46 @@
 /* Root setting for my style  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
-    background-image: url('waterimage.jpg');
-    background-repeat: no-repeat;
-    background-size: 1940px 400px;
+    
     background-color: color-mix(in hsl shorter hue, color 30%, color 40%);
     color:darkgray;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
-
 }
+
+/* Header */
+header {
+    background: rgb(134, 134, 146);
+    color: white;
+    padding-top: 30px;
+    margin: auto;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+    float: right;
+    display: inline;
+    margin: 5px;
+    padding: 0 5px 0 5px;
+}
+
+/*
 h1 {
     margin-bottom: 15px;
     text-align: center;
@@ -38,3 +69,4 @@ ul li a {
 a{
     color:blue;
 }
+*/
